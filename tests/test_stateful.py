@@ -8,7 +8,7 @@ def stateful():
     return Stateful("app")
 
 
-def test_stateful_name(stateful):
+def test_stateful_has_name(stateful):
     assert stateful.name == "app"
 
 

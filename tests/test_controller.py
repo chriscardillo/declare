@@ -8,7 +8,7 @@ def controller():
     return Controller("app")
 
 
-def test_controller_name(controller):
+def test_controller_has_name(controller):
     assert controller.name == "app"
 
 

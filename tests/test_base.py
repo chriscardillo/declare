@@ -8,7 +8,7 @@ def base():
     return BaseClass("base")
 
 
-def test_base_name(base):
+def test_base_has_name(base):
     assert base.name == "base"
 
 
